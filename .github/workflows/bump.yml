@@ -27,7 +27,7 @@ jobs:
 
       - name: Automated Version Bump
         id: version-bump
-        uses: phips28/gh-action-bump-version@e25d05e139958e4b7688a467846f673eaf86ce47 # v12.0.0
+        uses: phips28/gh-action-bump-version@63bc5b97aade4390bf3f33416b8adb891a0f28d7 # v12.0.2
         with:
           tag-prefix: 'v'
         env:
